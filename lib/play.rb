@@ -41,6 +41,7 @@ def play(board)
   while turns < 10 do
 
     turn(board)
+    turns +=1
   end
 end
   
